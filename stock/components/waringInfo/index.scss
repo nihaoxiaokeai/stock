@@ -1,0 +1,97 @@
+:global {
+  .stock-waring-root {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 14px;
+  }
+  .stock-waring-info {
+    background-color: white;
+    margin: 10px 10px 0px 10px;
+    // height: 126px;
+    height: 8rem;
+    border-radius: 4px;
+    .stock-waring-info-unit {
+      display: flex;
+      // justify-content: space-between;
+      padding: 10px 10px 0px 10px;
+    }
+  }
+  .stock-waring-handling {
+    background-color: white;
+    margin: 10px 10px 0px 10px;
+    // height: 90px;
+    height: 5.6rem;
+    border-radius: 4px;
+    .stock-waring-handling-unit {
+      display: flex;
+      justify-content: space-between;
+      //   height: 44px;
+      height: 2.8rem;
+      align-items: center;
+      padding-left: 10px;
+      padding-right: 10px;
+      .stock-waring-arrow-text {
+        display: flex;
+        align-items: center;
+      }
+    }
+  }
+  .stock-waring-remark {
+    background-color: white;
+    margin: 10px 10px 0px 10px;
+    // height: 210px;
+    height: 13.5rem;
+    border-radius: 4px;
+    .stock-waring-text {
+      color: #323232;
+      padding: 10px;
+    }
+    .stock-textarea {
+      margin: 0px 10px 10px 10px;
+      border: 1px solid #efebeb;
+      border-radius: 4px;
+      .am-textarea-control textarea {
+        font-size: 12px;
+      }
+    }
+  }
+
+  .stock-waring-button {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    .am-button-primary::before {
+      border: none !important;
+    }
+
+    .button-text {
+      font-size: 14px;
+      border-radius: 22px;
+      height: 47px;
+    }
+  }
+
+  .stock-waring-info-title {
+    color: #323232;
+    font-size: 12px;
+  }
+
+  .stock-waring-info-text {
+    color: #323232;
+    font-size: 12px;
+  }
+
+  .stock-waring-line {
+    background-color: #efebeb;
+    height: 0.1px;
+  }
+  .stock-red-stamp-image {
+    width: 75px;
+    height: 75px;
+    position: absolute;
+    right: 15px;
+    top: 20px;
+  }
+}
